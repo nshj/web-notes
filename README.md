@@ -4,5 +4,5 @@
 
 ### HTML
 
-* [HTML基础介绍](./HTML-notes/HTML基础介绍.md )
+* [HTML基础介绍](./HTML/HTML基础介绍.md )
 
