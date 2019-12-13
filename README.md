@@ -4,5 +4,5 @@
 
 ### HTML
 
-* [HTML基础介绍](./HTML/HTML基础介绍.md )
+* [HTML基础介绍](./HTML/HTML基础介绍.md )：HTML基本的文件结构，常用的基本标签介绍
 
