@@ -2,7 +2,7 @@
 
 HTML中的`<a>`元素主要是通过其标签的href（hypertext reference 超文本引用）属性指向网页或页面内指定的位置、文件、邮箱地址，只要可以用URL寻址的皆可以用此标签做链接。
 
-此标签基本练习demo：[a标签创建链接](../workbook/html-exercise/00-a标签创建链接.html)
+此标签基本练习实例：[a标签创建链接](../workbook/html-exercise/00-a标签创建链接.html)
 
 ## 常用属性
 

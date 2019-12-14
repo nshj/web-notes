@@ -2,7 +2,7 @@
 
 主要是通过此标签让文本嵌入图片,通过标签的src(source)属性，这个属性是此标签必须的；`<img>`标签没有闭合标签.
 
-此标签基本练习demo： [img标签创建图片](../workbook/html-exercise/01-img标签创建图片.html)
+此标签基本练习实例： [img标签创建图片](../workbook/html-exercise/01-img标签创建图片.html)
 
 ## 常用属性
 

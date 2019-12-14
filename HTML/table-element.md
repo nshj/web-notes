@@ -2,7 +2,7 @@
 
 `<table>`标签来表现二维表格中的信息.
 
-此标签基本练习demo：[table标签创建表格](../workbook/html-exercise/03-table标签创建表格.html)
+此标签基本练习实例：[table标签创建表格](../workbook/html-exercise/03-table标签创建表格.html)
 
 ## `<table>`使用的相关标签
 
