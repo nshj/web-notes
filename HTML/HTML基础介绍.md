@@ -79,3 +79,5 @@ HTML属性基本分为三种：
 需要了解[HTML实体字符](https://developer.mozilla.org/en-US/docs/Glossary/Entity) 
 
 [查询实体字符](https://entitycode.com/)
+
+[返回笔记目录](../README.md)
