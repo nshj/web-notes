@@ -23,5 +23,7 @@ HTML中的`<a>`元素主要是通过其标签的href（hypertext reference 超�
 - _parent:在当前框架的父框架打开(一般用于iframe中,暂不了解)
 - _top:在顶层框架打开(一般用于iframe中,暂不了解)
 
+`<download>`：此属性为设置要下载的链接，即告诉浏览器，不是打开是下载；属性值为命名的文件名。
+
 [返回笔记目录](../README.md)
 
