@@ -8,6 +8,14 @@
 
 由李爵士（Sir Timothy John Berners-Lee）发明，当然也是创造的HTML、HTTP协议和第一个浏览器，实现服务器与客户端的通讯，因“发明了万维网、第一个浏览器和使得万维网得以扩展的基础协议及算法”而获得2016年度的[图灵奖](https://zh.wikipedia.org/wiki/图灵奖)。
 
+## 计算机文本编码
+
+[维基百科]([https://zh.wikipedia.org/wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BC%96%E7%A0%81](https://zh.wikipedia.org/wiki/计算机编码))
+
+常在HTML源码的开头就看到有`<meta charset="UTF-8">`
+
+一般指定文档的字符集为UTF-8，包含了人类语言中大部分的文字。
+
 ## 基础的HTML文件
 
 ```html
