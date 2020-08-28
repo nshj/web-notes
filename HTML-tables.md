@@ -92,7 +92,7 @@ HTML属性基本分为三种：
 
 HTML中的`<a>`元素主要是通过其标签的href（hypertext reference 超文本引用）属性指向网页或页面内指定的位置、文件、邮箱地址，只要可以用URL寻址的皆可以用此标签做链接。
 
-此标签基本练习实例：[a标签创建链接](./htmlbook/html-exercise/00-a标签创建链接.html)
+此标签基本练习实例：[a标签创建链接](https://nshj.github.io/own-lab/htmlbook/html-exercise/00-a标签创建链接.html)
 
 ## 常用属性
 
@@ -119,7 +119,7 @@ HTML中的`<a>`元素主要是通过其标签的href（hypertext reference 超�
 
 主要是通过此标签让文本嵌入图片,通过标签的src(source)属性，这个属性是此标签必须的；`<img>`标签没有闭合标签.
 
-此标签基本练习实例： [img标签创建图片](./htmlbook/html-exercise/01-img标签创建图片.html)
+此标签基本练习实例： [img标签创建图片](https://nshj.github.io/own-lab/htmlbook/html-exercise/01-img标签创建图片.html)
 
 ## 常用属性
 
@@ -134,7 +134,7 @@ HTML中的`<a>`元素主要是通过其标签的href（hypertext reference 超�
 
 The Ordered &Unordered List &Description(Definition) List element；有序和无序列表就和markdown里面显示的一样,基本理解为带数字和不带数字；
 
-此标签基本练习实例：[ol&ul&dl标签创建列表](./htmlbook/html-exercise/02-ol&ul&dl标签创建列表.html)
+此标签基本练习实例：[ol&ul&dl标签创建列表](https://nshj.github.io/own-lab/htmlbook/html-exercise/02-ol&ul&dl标签创建列表.html)
 
 这里要提一下，两种列表只能包含`<li>`标签，其次`<li>`标签里面可以继续嵌套列表，也就是说可以列表套列表，但写代码的时候要注意分清嵌套逻辑，别写混乱了。
 
@@ -144,7 +144,7 @@ The Ordered &Unordered List &Description(Definition) List element；有序和无
 
 `<table>`标签来表现二维表格中的信息.
 
-此标签基本练习实例：[table标签创建表格](./htmlbook/html-exercise/03-table标签创建表格.html)
+此标签基本练习实例：[table标签创建表格](https://nshj.github.io/own-lab/htmlbook/html-exercise/03-table标签创建表格.html)
 
 ## `<table>`使用的相关标签
 
