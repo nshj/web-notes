@@ -246,5 +246,69 @@ $emit()第一个参数为 自定义事件名，第二个可选参数为子组件
   </template>
 ```
 
+## 父子组件的访问
+
+* 父子组件的访问方式： $children 是一个数组类型 包含所有子组件对象
+* 父子组件的访问方式： $refs 首先通过ref给某一个子组件绑定一个特定的ID通过this.$refs.ID就可以访问到该组件
+* 子组件中直接访问父组件，可以通过$parent ，不建议使用，耦合度太高
+
+## slot插槽
+
+```javascript
+Vue.component('alert-box', {
+  template: `
+    <div class="demo-alert-box">
+      <strong>Error!</strong>
+      <slot></slot>
+    </div>
+  `
+})
+```
+
+```html
+<alert-box>
+	<p>
+    组件中的标签会把slot替换掉
+  </p>
+</alert-box>
+```
 
 
+
+`<slot></slot>`如果组间内没有指定具名slot，会替换默认不带name属性的slot；
+
+### 具名插槽
+
+`<slot>` 元素有一个特殊的 attribute：`name`，一个不带 `name` 的 `<slot>` 出口会带有隐含的名字“default”；
+
+在向具名插槽提供内容的时候，我们可以在一个 `<template>` 元素上使用 `v-slot` 指令，并以 `v-slot` 的参数的形式提供其名称，`v-slot` 只能添加在 `<template>` 上（一种例外情况：当被提供的内容*只有*默认插槽时，组件的标签才可以被当作插槽的模板来使用）
+
+```html
+<base-layout>
+  <template v-slot:header>
+    <h1>Here might be a page title</h1>
+  </template>
+ </base-layout>
+```
+
+```html
+<div class="container">
+  <header>
+    <slot name="header"></slot>
+  </header>
+</div>
+```
+
+### 作用域插槽
+
+子组件模板插槽里的动态数据，作用域在子组件，父组件如果替换了插槽的内容还想用子组件的数据是不行的，作用域不同。
+
+父组件替换子组件的slot，还想拿到子组件的数据，以下方法传出子组件的数据：
+
+* 子组件使用`v-bind : key="子data属性"`动态绑定子组件的data属性
+* 父组件通过`v-slot : slotname = "datakeys"`的方式赋值给`datakeys`
+* 最后通过`{{ datakeys.key}}`的方式获取数据  
+
+### 具名插槽的缩写
+
+跟 `v-on` 和 `v-bind` 一样，`v-slot` 也有缩写，即把参数之前的所有内容 (`v-slot:`) 替换为字符 `#`。例如 `v-slot:header` 可以被重写为 `#header`
