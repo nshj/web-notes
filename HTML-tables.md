@@ -185,5 +185,3 @@ The Ordered &Unordered List &Description(Definition) List element；有序和无
 更多`<table>`相关联其他标签的使用，还需要慢慢实践中摸索和多查[MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)。  
 
 
-
-# 
